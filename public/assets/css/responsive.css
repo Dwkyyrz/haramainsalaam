@@ -1,0 +1,90 @@
+/* ===================
+      Mobile Devices
+   =================== */
+@media (max-width: 576px) {
+   .content-container {
+      width: 100%;
+   }
+   .about .container{
+      grid-template-columns: 1fr;
+   }  
+   .about .container .text1{
+      text-align: center !important;
+   }
+
+   /* ========================
+            Benefit
+   ======================== */
+   .benefit-container{
+      flex-direction: column;
+      padding: .5rem;
+   }
+   .benefit-container .list-benefit{
+      order: 1;
+   }
+   .benefit-container .img-benefit{
+      order: 2;
+      width: 100%;
+   }
+   .benefit-container .container-list{
+      grid-template-columns: 1fr;
+   }
+   /* ========================
+         End of Benefit
+   ======================== */
+
+   /* ========================
+         Facility
+   ======================== */
+   .facility-list{
+      grid-template-columns: 1fr;
+
+   }
+   /* ========================
+         End ofFacility
+   ======================== */
+
+
+   .service-list{
+      grid-template-columns: 1fr;
+      column-gap: 1rem;
+      row-gap: 1rem;
+   }
+}
+
+/* ==========================
+      Ipad/medium Devices
+   ========================== */
+@media (min-width: 577px) and (max-width: 991.9px){
+   .content-container {
+      width: 100%;
+   }
+   .content-container .container{
+      grid-template-columns: 1fr;
+   }  
+   .content-container .container .text1{
+      text-align: center !important;
+   }
+}
+
+
+/* ===============================
+      Large/pc monitor Devices
+   =============================== */
+@media (min-width: 992px) and (max-width: 1199.9px){
+   .content-container {
+      width: 80%;
+   }
+   .content-container .container{
+      grid-template-columns: repeat(2, 1fr);
+   }  
+}
+
+@media (min-width: 1200px){
+   .content-container {
+      width: 70%;
+   }
+   .content-container .container{
+      grid-template-columns: repeat(2, 1fr);
+   }  
+}
